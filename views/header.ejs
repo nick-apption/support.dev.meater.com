@@ -1,0 +1,88 @@
+<%- include basic-header.ejs %>
+
+<!-- <div id="form-back-arrow"><a href="#" onclick="history.back(-1);"><</a></div> -->
+<div id="form-back-arrow"><a href="/"><</a></div>
+
+<div id="my-account-popover">
+<div>
+<img src="https://meater.com/i/close.svg" id="close-popover-button" alt="Close and continue shopping" onclick="closeStoreLoginChooser();">
+<h1>To login and view your previous orders, please select the MEATER store you used to purchase your product:</h1>
+<ul>
+<li><a href="https://store.meater.com/account.php"><img src="/i/us.svg" alt="USA Flag image"><br>USA Store</a></li>
+<li><a href="https://eustore.meater.com/account.php"><img src="/i/eu.svg" alt="EU Flag image"><br>EU Store</a></li>
+<li><a href="https://ukstore.meater.com/account.php"><img src="/i/uk.svg" alt="UK Flag image"><br>UK Store</a></li>
+<li><a href="https://austore.meater.com/account.php"><img src="/i/aus-nz.svg" alt="Australia &amp; New Zealand Flags image"><br>AUS &amp; NZ</a></li>
+<li><a href="https://store.meater.com/account.php"><img src="/i/row.svg" alt="International Flag image"><br>International Store</a></li>
+</ul>
+</div>
+</div>
+
+<div id="mobile-side-panel">
+<ul>
+<li><a href="/">HOME</a></li>
+<li><a href="https://meater.com/blog/">BLOG</a></li>
+<li><a href="/support/">SUPPORT</a></li>
+<li><a href="/shop/">SHOP</a></li>
+</ul>
+<ul>
+<li><a href="/support/#faqs" onclick="toggleSideMenu();">FAQS</a></li>
+<li><a href="/support/#videos" onclick="toggleSideMenu();">VIDEOS</a></li>
+<li><a href="#" onclick="return showStoreLoginChooser();">MY ACCOUNT</a></li>
+<li><a href="/contact-us/">CONTACT US</a></li>
+</ul>
+<ul>
+<li><a href="/about-us/">ABOUT US</a></li>
+</ul>
+<ul>
+<li><a href="/warranty-returns/">WARRANTY</a></li>
+<li><a href="/privacy-policy/">PRIVACY POLICY</a></li>
+<li><a href="/terms-of-use/">TERMS OF USE</a></li>
+</ul>
+<ul id="side-panel-social">
+<li><a href="https://www.facebook.com/meatermade"><img src="/i/facebook-icon.svg" alt="MEATER on Facebook"></a></li>
+<li><a href="https://www.instagram.com/meatergram"><img src="/i/instagram-icon.svg" alt="MEATER on Instagram"></a></li>
+<li><a href="https://www.youtube.com/c/meater"><img src="/i/youtube-icon.svg" alt="MEATER on YouTube"></a></li>
+<li><a href="https://twitter.com/MEATERmade"><img src="/i/twitter-icon.svg" alt="MEATER on Twitter"></a></li>
+</ul>
+</div>
+<div id="container">
+<div id="header">
+<!-- <div id="header-spacer"></div> -->
+<div class="group">
+<a href="/" id="logo"><img src="/i/logo.svg" alt="MEATER"></a>
+<ul id="nav">
+<li><a href="#" onclick="return toggleSideMenu();" class="menu"><img src="/i/hamburger.svg" alt="Menu" id="mobile-menu-button"></a></li>
+<li><a href="https://meater.com/blog/" class="btn blog line-link">BLOG</a></li>
+<li id="support-menu">
+<ul id="support-submenu">
+<li><a href="/support/" class="line-link">SUPPORT</a></li>
+<li class="submenu-option"><a href="/support/#faqs" class="line-link">FAQs</a></li>
+<li class="submenu-option"><a href="/support/#videos" class="line-link">Videos</a></li>
+<li class="submenu-option"><a href="/contact-us/" class="line-link">Contact us</a></li>
+</ul>
+</li>
+<li id="login-menu">
+<ul id="login-submenu">
+<li><a href="#" onclick="return showStoreLoginChooser();">MY ACCOUNT</a></li>
+<li class="submenu-option"><a href="https://store.meater.com/account.php" class="line-link usa">USA Store</a></li>
+<li class="submenu-option"><a href="https://eustore.meater.com/account.php" class="line-link eu">EU Store</a></li>
+<li class="submenu-option"><a href="https://ukstore.meater.com/account.php" class="line-link uk">UK Store</a></li>
+<li class="submenu-option"><a href="https://austore.meater.com/account.php" class="line-link aus">AUS &amp; NZ</a></li>
+<li class="submenu-option"><a href="https://store.meater.com/account.php" class="line-link international">International Store</a></li>
+</ul>
+</li>
+<li><a href="/shop/" class="btn shop">SHOP</a></li>
+<li class="social"><a href="https://www.facebook.com/meatermade"><img src="/i/facebook-icon.svg" alt="MEATER on Facebook"></a></li>
+<li class="social"><a href="https://www.instagram.com/meatergram"><img src="/i/instagram-icon.svg" alt="MEATER on Instagram"></a></li>
+<li class="social"><a href="https://www.youtube.com/c/meater"><img src="/i/youtube-icon.svg" alt="MEATER on YouTube"></a></li>
+<li class="social"><a href="https://twitter.com/MEATERmade"><img src="/i/twitter-icon.svg" alt="MEATER on Twitter"></a></li>
+</ul>
+</div>
+<%
+/*
+<h1 id="banner">Cyber Monday Sale: Get 10% off single MEATERs with coupon code: <span>SIZZLE10</span></h1>
+*/
+%>
+</div>
+
+

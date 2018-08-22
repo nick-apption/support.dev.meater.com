@@ -1,0 +1,23 @@
+<%-include header.ejs %>
+
+<div id="hero">
+<div id="hero-intro">
+<h1>Contact Us</h1>
+</div>
+</div>
+
+<h2 id="question-type">500 INTERNAL SERVER ERROR</h2>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg error-page">
+    	<p>Oops, there seems to have been an issue with loading the page that you requested</p>
+    	<p class="error"><%= (error) ? error : ''; %></p>
+    	<p>Apologies for that, click <a href="/" title="Return to the homepage">here to return</a> to the homepage</p>
+    </div>
+  </div>
+</div>
+
+
+<%- include footer.ejs %>

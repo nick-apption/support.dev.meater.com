@@ -1,0 +1,194 @@
+<%-include header.ejs %>
+
+<div id="hero">
+<div id="hero-intro">
+<h1>Contact Us</h1>
+</div>
+</div>
+
+<div id="a1-contact-form">
+<div id="" class="container no-spacing">
+	<div class="row">
+	    <div class="w100 content-center section-spacer">
+	    	<i class="fas fa-envelope fa-8x"></i>
+	    	<h3>We are here to help.</h3>
+	    	<h5>Tell us more about your question. </h5>
+	    </div>
+	</div>
+</div>
+
+<div id="" class="container">
+	<div class="a1-contact-form">
+	    <div class="">
+            <form id="contact-form" name="contact-form" action="/contact-form/" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form">
+                        	<label for="firstname" class="">Name</label>
+                            <input type="text" id="firstname" name="firstname" class="form-control" placeholder="First Name" required>                            
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form">
+                        	<label for="firstname" class="">&nbsp;</label>
+                            <input type="text" id="lastname" name="lastname" class="form-control" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                        	<label for="email" class="">Email</label>
+                            <input type="text" id="email" name="email" class="form-control" placeholder="e.g. hellomeater@contact.com" required>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                        	<label for="phone" class="">Telephone</label>
+                            <input type="text" id="phone" name="phone" class="form-control" placeholder="e.g. (000)123-4567" required>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Please select all that apply.</p>
+                        <p>My area of influence is best described as:</p>
+                        <div class="md-form">
+                            <div class="custom-control custom-checkbox">
+                              <input class="custom-control-input" type="checkbox" value="" id="influence-area1">
+                              <label class="custom-control-label" for="influence-area1">Food/ Cooking</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                              <input class="custom-control-input" type="checkbox" value="" id="influence-area2">
+                              <label class="custom-control-label" for="influence-area2">Lifestyle</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                              <input class="custom-control-input" type="checkbox" value="" id="influence-area3">
+                              <label class="custom-control-label" for="influence-area3">Technology</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                              <input class="custom-control-input" type="checkbox" value="" id="influence-area4">
+                              <label class="custom-control-label" for="influence-area4">Other</label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+                <div class="clearer" style="margin: 30px auto;">
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>The platform(s) I am active on:</p>
+                        <div class="md-form">
+                            <div class="custom-control custom-checkbox">
+                              <input class="custom-control-input" type="checkbox" value="" id="platforms-1">
+                              <label class="custom-control-label" for="platforms-1">Twitter</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                              <input class="custom-control-input" type="checkbox" value="" id="platforms-2">
+                              <label class="custom-control-label" for="platforms-2">Facebook</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                              <input class="custom-control-input" type="checkbox" value="" id="platforms-3">
+                              <label class="custom-control-label" for="platforms-3">Instagram</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                              <input class="custom-control-input" type="checkbox" value="" id="platforms-4">
+                              <label class="custom-control-label" for="platforms-4">Youtube</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                              <input class="custom-control-input" type="checkbox" value="" id="platforms-5">
+                              <label class="custom-control-label" for="platforms-5">Other</label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <label for="publication" class="">&nbsp;</label>
+                            <input type="text" id="publication" name="publication" class="form-control" placeholder="URL link to prefered platform" required>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                        <div class="md-form">
+                        	<!-- <label for="message">Your message</label> -->
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Type your message here... " required></textarea>                      
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+				<div class="text-center">
+	                <input type="submit" value="Submit" class="btn btn-info btn-block submit-btn">
+	            </div>
+            </form>
+
+            
+        </div>
+        <!--Grid column-->
+
+
+	    <h3 class="w100">Or, send us snail mail:</h3>
+		<div id="contact_address">
+			<div>
+			<p><strong>USA Office</strong></p>
+			<p>Apption Labs, Inc.<br>
+			11908 Ventura Blvd.<br>
+            Suite 202<br>
+			Studio City, CA 91604</p>
+			</div>
+
+			<div>
+			<p><strong>UK Office</strong></p>
+			<p>Apption Labs Limited<br>
+			7-8 Westbridge Close<br>
+			Leicester, LE3 5LW<br>
+			</p>
+			</div>
+		</div>
+	</div>
+
+    <div id="a1-bottom-links" class="container">
+        <div class="row">
+            <div class="w100">
+                <a href="/support" class="" >Here’s a link to other Frequently Asked Questions ></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<%- include footer.ejs %>

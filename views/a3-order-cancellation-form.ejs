@@ -1,0 +1,129 @@
+<%-include header.ejs %>
+
+<div id="hero">
+<div id="hero-intro">
+<h1>Contact Us</h1>
+</div>
+</div>
+
+<div id="a1-contact-form">
+<div id="" class="container no-spacing">
+	<div class="row">
+	    <div class="w100 content-center section-spacer">
+	    	<i class="fas fa-envelope fa-8x"></i>
+	    	<h3>We are here to help.</h3>
+	    	<h5>Tell us more about your order. </h5>
+	    </div>
+	</div>
+</div>
+
+<div id="" class="container">
+	<div class="a1-contact-form">
+	    <div class="">
+            <form id="contact-form" name="contact-form" action="/contact-form/" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form">
+                        	<label for="firstname" class="">Name</label>
+                            <input type="text" id="firstname" name="firstname" class="form-control" placeholder="First Name" required>                            
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form">
+                        	<label for="firstname" class="">&nbsp;</label>
+                            <input type="text" id="lastname" name="lastname" class="form-control" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                        	<label for="email" class="">Email</label>
+                            <input type="text" id="email" name="email" class="form-control" placeholder="e.g. hellomeater@contact.com" required>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                        	<label for="phone" class="">Telephone</label>
+                            <input type="text" id="phone" name="phone" class="form-control" placeholder="e.g. (000)123-4567" required>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                        <div class="md-form">
+                        	<label for="message">What is the reason for your cancellation? </label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Type your message here... " required></textarea>                      
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+				<div class="text-center">
+	                <input type="submit" value="Submit" class="btn btn-info btn-block submit-btn">
+	            </div>
+            </form>
+
+            
+        </div>
+        <!--Grid column-->
+
+
+	    <h3 class="w100">Or, send us snail mail:</h3>
+		<div id="contact_address">
+			<div>
+			<p><strong>USA Office</strong></p>
+			<p>Apption Labs, Inc.<br>
+			11908 Ventura Blvd.<br>
+            Suite 202<br>
+			Studio City, CA 91604</p>
+			</div>
+
+			<div>
+			<p><strong>UK Office</strong></p>
+			<p>Apption Labs Limited<br>
+			7-8 Westbridge Close<br>
+			Leicester, LE3 5LW<br>
+			</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="a1-bottom-links" class="container">
+		<div class="row">
+		    <div class="w100">
+		    	<h3>Do you need more help?</h3>
+		    	<a href="/support" class="" >Here’s a link to other Frequently Asked Questions ></a>
+		    	<div class="col-lg-12">
+		    		<a href="#" class="btn btn-primary bottom-support-btns" onclick="history.back(-1)"><i class="fas fa-chevron-left"></i> Go Back</a>
+		    		<a href="/" class="btn btn-primary bottom-support-btns"><i class="fas fa-undo-alt"></i> Start Over</a>
+		    		<a href="/a1-contact-form" class="btn btn-primary bottom-support-btns"><i class="far fa-envelope"></i> Contact Us</a>
+		    	</div>
+		    </div>
+		</div>
+	</div>
+</div>
+</div>
+
+<%- include footer.ejs %>

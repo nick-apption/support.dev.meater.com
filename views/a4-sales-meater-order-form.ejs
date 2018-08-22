@@ -1,0 +1,61 @@
+<%-include header.ejs %>
+
+<div id="hero">
+<div id="hero-intro">
+<h1>Contact Us</h1>
+</div>
+</div>
+
+<div id="a1-contact-form">
+<div id="" class="container no-spacing">
+	<div class="row">
+	    <div class="w100 content-center section-spacer">
+	    	<i class="fas fa-envelope fa-8x"></i>
+	    	<h3>We are here to help.</h3>
+	    	<h5>Tell us more about your question. </h5>
+	    </div>
+	</div>
+</div>
+
+<div id="" class="container">
+	<div class="a1-contact-form">
+	    <div class="">
+            <form id="contact-form" name="contact-form" action="/contact-form/" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                        <div class="md-form">
+                        	<label for="firstname" class="a4-qty-label">How many MEATERs are you interested in buying?</label>
+                            <input type="text" id="meater-purchase-quantity" name="meater-purchase-quantity" class="form-control" placeholder="" required>                            
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                <!--Grid row-->
+				<!-- <div class="text-center">
+	                <input type="submit" value="Submit" class="btn btn-info btn-block submit-btn">
+	            </div> -->
+            </div>
+        </form>
+
+        <div id="" class="container no-spacing">
+            <div class="row">
+                <div class="w100 content-center section-spacer">
+                    <h3>What country will your order be delivered to?</h3>
+                </div>
+                <div class="w100 section-spacer flag-select">
+                    <a href="#" class="flag-select"><img src="/i/us.svg" alt="" class="order-flag-select" /><br/>United States</a>
+                    <a href="#" class="flag-select"><img src="/i/uk.svg" alt="" class="order-flag-select" /><br/>United Kingdom</a>
+                    <a href="#" class="flag-select"><img src="/i/eu.svg" alt="" class="order-flag-select" /><br/>European Union</a>
+                    <a href="#" class="flag-select"><img src="/i/aus.svg" alt="" class="order-flag-select" /><br/>Australia</a>
+                    <a href="#" class="flag-select"><img src="/i/row.svg" alt="" class="order-flag-select" /><br/>International</a>
+                </div>
+            </div>
+        </div>
+            
+    </div>
+</div></div>
+<%- include footer.ejs %>
